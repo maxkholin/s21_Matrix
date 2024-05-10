@@ -312,7 +312,6 @@ public class Matrix {
         return rows == cols;
     }
 
-    // isZeroDeterminant is better NAME for method
     private boolean isZeroDeterminant() {
         int zeroColumnCounter = 0;
         int zeroRowCounter = 0;
